@@ -110,7 +110,7 @@ Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) par
 
 📧 Email: cristoferruan.21@gmail.com
 💼 LinkedIn: [Cristofer Ruan](https://www.linkedin.com/in/cristofer-ruan-dev/)  
-📂 Portfólio: [seuportfólio.com](https://seuportfólio.com)  
+📂 Portfólio: [Portfólio Dev](https://portfolio-dev-cristofer.vercel.app)  
 
 ---
 
