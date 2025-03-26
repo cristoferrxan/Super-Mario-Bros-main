@@ -24,9 +24,6 @@ A página apresenta um vídeo de fundo, informações sobre os serviços prestad
 
 ## 📺 Demonstração
 
-Se possível, adicione uma captura de tela ou um GIF mostrando a interface do projeto.
-
-Exemplo:
 
 ![Demonstração do Projeto](mario-desktop.png)
 
