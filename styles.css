@@ -1,0 +1,207 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-mario {
+
+    width: 280px;
+}
+
+.img-mario {
+
+    height: 500px;
+}
+
+.section-left {
+
+    width: 35%;
+}
+
+.section-video-mario {
+
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+.mascara-video {
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+p {
+
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+
+    height: 40px;
+    width: 150px;
+    background: #c51111;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+button:hover {
+
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+button:active {
+
+    opacity: 0.5;
+}
+
+.fale-conosco {
+
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    position: fixed;
+    left: -278px;
+    transition: left 1s linear;
+    z-index: 4;
+}
+
+input {
+
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    padding-left: 10px;
+    outline-color: #c5111160;
+}
+
+textarea {
+
+    height: 100px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    outline-color: #c5111160;
+    padding: 10px;
+}
+
+.button-form {
+
+    height: 40px;
+    width: 100%;
+    background: #c51111;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+button:hover {
+
+    transform: none;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+button:active {
+
+    opacity: 0.6;
+}
+
+.mascara-form {
+
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+@media screen and (max-width: 680px) {
+
+    body {
+
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: url(./super-mario-mobile.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-video-mario {
+
+        display: none;
+    }
+
+    .img-mario {
+
+        display: none;
+    }
+
+    .section-left {
+
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+}
